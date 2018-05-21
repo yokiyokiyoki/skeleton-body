@@ -50,3 +50,48 @@
     background-position: 20rem 0;
   }
 }
+
+/* 长度结构 */
+.skeleton-length {
+  padding: 10px;
+}
+
+.skeleton-length .skeleton-length-head,
+.skeleton-length .skeleton-length-title,
+.skeleton-length .skeleton-length-content {
+  background: rgb(194, 207, 214);
+}
+
+.skeleton-length-head {
+  width: 100px;
+  height: 100px;
+  float: left;
+}
+
+.skeleton-length-body {
+  margin-left: 110px;
+}
+
+.skeleton-length-title {
+  width: 500px;
+  height: 60px;
+  transform-origin: left;
+  animation: skeleton-stretch 0.5s linear infinite alternate;
+}
+
+.skeleton-length-content {
+  width: 260px;
+  height: 30px;
+  margin-top: 10px;
+  transform-origin: left;
+  animation: skeleton-stretch 0.5s -0.3s linear infinite alternate;
+}
+
+@keyframes skeleton-stretch {
+  from {
+    transform: scalex(1);
+  }
+  to {
+    transform: scalex(0.3);
+  }
+}
