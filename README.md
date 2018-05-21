@@ -1,1 +1,3 @@
-# skeleton-body
+# 骨架屏动画的实现
+
+* 通过 css 动画
