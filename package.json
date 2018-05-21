@@ -4,7 +4,7 @@
   "description": "* 通过 css 动画",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "http-server -a 127.0.0.1 -p 8090"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/yokiyokiyoki/skeleton-body/issues"
   },
-  "homepage": "https://github.com/yokiyokiyoki/skeleton-body#readme"
+  "homepage": "https://github.com/yokiyokiyoki/skeleton-body#readme",
+  "devDependencies": {
+    "http-server": "^0.11.1"
+  }
 }
