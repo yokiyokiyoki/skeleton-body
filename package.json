@@ -4,7 +4,7 @@
   "description": "* 通过 css 动画",
   "main": "index.js",
   "scripts": {
-    "start": "http-server -a 127.0.0.1 -p 8090"
+    "start": "http-server -a 127.0.0.1 -p 8091"
   },
   "repository": {
     "type": "git",
